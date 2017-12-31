@@ -4,7 +4,7 @@ Asyncio loop load instrument
 
 Measure how busy is your loop and make your code adaptative for different level of performance saturation.
 The following snippet shows how the instrument can be used to reject coroutines when the load factor is greater
-than *0.9*:
+than **0.9**:
 
 .. code-block:: python
 
