@@ -31,7 +31,7 @@ than **0.9**:
 		print("Load reached for {} coros/seq: {}, abandoned {}/{}".format(n/10, load(), abandoned))
 
 	async def main(loop):
-		await run(loop, 100)
+		await run(loop, 800)
 
 	loop = asyncio.get_event_loop()
 	loop.add_instrument(LoadInstrument)
